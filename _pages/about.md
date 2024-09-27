@@ -1,13 +1,41 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Kezheng Xiong, M.Sc. Student at Xiamen University"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+## About Me
+
+I am currently a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate studies in Computer Science and Technology in 2024. Currently, my research interests lie in the field of 3D computer vision. Currently, I am working on **point cloud registration**, which is a fundamental task in 3D computer vision. 
+
+I am currently affiliated with the **[ASC laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** of Xiamen University, where I engage in cutting-edge research and participate in various projects that enhance my skills in artificial intelligence, machine learning and computer vision. Starting from 2023, I have contributed to the field through research that constitutes important research projects of the laboratory that I am affiliated with. My researches have been published in top-tier AI conferences, such as AAAI and NeurIPS.
+
+## Education
+
+- **M.Sc. in Artificial Intelligence**, Xiamen University, 2024 - Present
+- **B.Sc. in Computer Science and Technology**, Xiamen University, 2020 - 2024
+
+For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
+
+## News
+
+- **[09/2024]**: One [paper](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer) on *unsupervised** point cloud registration has been accepted to NeurIPS 2024.
+- **[12/2023]**: One [paper](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal) on cross-source point cloud registration has been accepted to AAAI 2024.
+
+## Research Interests
+
+My research interests include:
+- Point Cloud Registration
+
+### Point Cloud Registration
+
+Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. 
+
+
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -46,4 +74,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
