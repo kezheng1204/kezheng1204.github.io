@@ -3,9 +3,9 @@ title: "Mining and Transferring Feature-Geometry Coherence for Unsupervised Poin
 collection: publications
 category: conferences
 permalink: /publication/2024-09-27-neurips2024-integer
-excerpt: '..., Motivated by this observation, we propose a novel unsupervised registration method termed INTEGER to incorporate high-level contextual information for reliable pseudo-label mining.'
+excerpt: 'In this paper, we propose a novel unsupervised registration method termed INTEGER to incorporate high-level contextual information for reliable pseudo-label mining.'
 date: 2024-09-27
-venue: 'Accepted to NeurIPS 2024 Main Conference'
+venue: '(Accepted to) NeurIPS 2024 Main Conference'
 paperurl: 'http://kezheng1204.github.io/files/paper_placeholder.pdf'
 citation: 'Coming Soon.'
 ---
