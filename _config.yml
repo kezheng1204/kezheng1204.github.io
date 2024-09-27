@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home Page"
+title                    : "Kezheng Xiong"
 title_separator          : "-"
 name                     : &name "Kezheng Xiong"
 description              : &description "3D computer vision researcher, a master's student in Xiamen University"
@@ -22,7 +22,7 @@ repository               : "kezheng1204/kezheng1204.github.io"
 author:
   # Biographic information
   avatar           : "IMG_5689SMALL43.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Kezheng Xiong"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "3D computer vision researcher, a master's student in Xiamen University"
   location         : "Xiamen Unviversity"
