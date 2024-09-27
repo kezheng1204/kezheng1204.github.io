@@ -9,9 +9,10 @@ redirect_from:
 
 ## About Me
 
-I am currently a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate studies in Computer Science and Technology in 2024. Currently, my research interests lie in the field of 3D computer vision. Currently, I am working on **point cloud registration**, which is a fundamental task in 3D computer vision. 
+I am currently a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate studies in Computer Science and Technology in 2024. 
+I am currently affiliated with the **[ASC laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** of Xiamen University, where I engage in cutting-edge research and participate in various projects that enhance my skills in artificial intelligence, machine learning and computer vision. 
 
-I am currently affiliated with the **[ASC laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** of Xiamen University, where I engage in cutting-edge research and participate in various projects that enhance my skills in artificial intelligence, machine learning and computer vision. Starting from 2023, I have contributed to the field through research that constitutes important research projects of the laboratory that I am affiliated with. My researches have been published in top-tier AI conferences, such as AAAI and NeurIPS.
+Currently, my research interests lie in the field of 3D computer vision. Particularly, I am working on **point cloud registration**, which is a fundamental task in 3D computer vision. Starting from 2023, I have contributed to the field through research that constitutes important research projects of the laboratory that I am affiliated with. My researches have been published in top-tier AI conferences, such as AAAI and NeurIPS.
 
 ## Education
 
