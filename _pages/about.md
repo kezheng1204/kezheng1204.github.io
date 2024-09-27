@@ -23,7 +23,7 @@ For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 
 ## News
 
-- **[09/2024]**: One [paper](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer) on *unsupervised** point cloud registration has been accepted to NeurIPS 2024.
+- **[09/2024]**: One [paper](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer) on unsupervised point cloud registration has been accepted to NeurIPS 2024.
 - **[12/2023]**: One [paper](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal) on cross-source point cloud registration has been accepted to AAAI 2024.
 
 ## Research Interests
