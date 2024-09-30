@@ -33,7 +33,16 @@ My research interests include:
 
 ### Point Cloud Registration
 
-Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. 
+Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. The goal of point cloud registration is to estimate the transformation $\mathbf{T}= \{\mathbf{R}, \mathbf{t}\}$ that aligns the source point cloud $\mathbf{P}_s$ to the target point cloud $\mathbf{P}_t$:
+$$
+\mathbf{T} = \arg\min_{\mathbf{T}} \sum_{i=1}^{N} \left\| \mathbf{R}\mathbf{p}_{s_i} + \mathbf{t} - \mathbf{p}_{t_i} \right\|^2
+$$
+where $\mathbf{R}$ and $\mathbf{t}$ are the rotation matrix and translation vector, respectively.
+
+Particularly, I have been working on the following topics:
+
+- Cross-source Point Cloud Registration ([AAAI 2024](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal)): Two point clouds are captured from different sources, e.g., LiDAR and RGB-D cameras.
+- Unsupervised Point Cloud Registration ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): No ground-truth poses is provided during training.
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
