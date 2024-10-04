@@ -33,7 +33,7 @@ My research interests include:
 
 ### Point Cloud Registration
 
-Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. The goal of point cloud registration is to estimate the transformation \\(\mathbf{T}= \{\mathbf{R}, \mathbf{t}\}\\) that aligns the source point cloud \\(\mathbf{P}_s\\) to the target point cloud \\(\mathbf{P}_t\\):
+Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. The goal of point cloud registration is to estimate the transformation \\(\mathbf{T}= {\mathbf{R}, \mathbf{t}}\\) that aligns the source point cloud \\(\mathbf{P}_s\\) to the target point cloud \\(\mathbf{P}_t\\):
 
 $$
 \mathbf{T} = \arg\min_{\mathbf{T}} \sum_{i=1}^{N} \left\| \mathbf{R}\mathbf{p}_{s_i} + \mathbf{t} - \mathbf{p}_{t_i} \right\|^2
