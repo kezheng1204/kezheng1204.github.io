@@ -12,7 +12,7 @@ title                    : "Kezheng Xiong"
 title_separator          : "-"
 name                     : &name "Kezheng Xiong"
 description              : &description "3D computer vision researcher, a master's student in Xiamen University"
-url                      : "https://kezheng1204.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://kezhengxiong.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kezheng1204/kezheng1204.github.io"
 
