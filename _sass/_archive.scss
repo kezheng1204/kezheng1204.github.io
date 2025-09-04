@@ -25,6 +25,15 @@
       }
     }
   }
+  
+  /* Override for publication detail buttons */
+  .publication-details a {
+    text-decoration: none !important;
+    
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
 }
 
 .archive__subtitle {
@@ -87,58 +96,109 @@
 /* Publication Details Styling */
 .publication-details {
   margin-top: 1em;
-  padding: 1em;
-  background-color: mix(#fff, $gray, 95%);
+  padding: 1.2em;
+  background-color: mix(#fff, $gray, 96%);
   border-left: 4px solid $primary-color;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: $type-size-6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.publication-meta {
+  font-size: $type-size-6;
+  color: mix(#000, $gray, 70%);
+  margin-bottom: 0.5em;
+}
+
+.venue-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, $primary-color, mix($primary-color, #000, 85%));
+  color: #fff;
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  font-style: normal;
 }
 
 .citation-section {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   
   .citation-label {
     color: $primary-color;
     font-size: $type-size-6;
-    font-weight: bold;
-    margin-bottom: 0.5em;
+    font-weight: 700;
+    margin-bottom: 0.6em;
     display: flex;
     align-items: center;
     
     i {
       margin-right: 0.5em;
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
   }
   
   .citation-text {
     font-style: italic;
-    color: mix(#000, $gray, 80%);
-    line-height: 1.4;
+    color: mix(#000, $gray, 75%);
+    line-height: 1.5;
     margin: 0;
-    padding-left: 1.5em;
-    border-left: 2px solid mix(#fff, $gray, 85%);
+    padding: 0.8em 1.2em;
+    background-color: #fff;
+    border-left: 3px solid mix(#fff, $primary-color, 70%);
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   }
 }
 
 .publication-links {
   display: flex;
-  gap: 0.5em;
+  gap: 0.8em;
   flex-wrap: wrap;
   
   .btn {
     display: inline-flex;
     align-items: center;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.3px;
     
     i {
-      margin-right: 0.4em;
+      margin-right: 0.5em;
+      font-size: 1.1em;
     }
     
     &:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(#000, 0.2);
+      text-decoration: none !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba($primary-color, 0.3);
+    }
+  }
+  
+  .btn--primary {
+    background: linear-gradient(135deg, $primary-color, mix($primary-color, #000, 85%));
+    
+    &:hover {
+      background: linear-gradient(135deg, mix($primary-color, #000, 90%), mix($primary-color, #000, 75%));
+    }
+  }
+  
+  .btn--info {
+    background: linear-gradient(135deg, $info-color, mix($info-color, #000, 85%));
+    
+    &:hover {
+      background: linear-gradient(135deg, mix($info-color, #000, 90%), mix($info-color, #000, 75%));
     }
   }
 }
