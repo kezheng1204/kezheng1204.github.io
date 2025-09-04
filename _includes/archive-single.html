@@ -52,18 +52,30 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+    {% if post.citation or post.paperurl or post.slidesurl %}
+      <div class="publication-details">
+        {% if post.citation %}
+          <div class="citation-section">
+            <h4 class="citation-label"><i class="fa fa-quote-left" aria-hidden="true"></i> Citation</h4>
+            <p class="citation-text">{{ post.citation }}</p>
+          </div>
+        {% endif %}
+        
+        {% if post.paperurl or post.slidesurl %}
+          <div class="publication-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" class="btn btn--primary btn--small">
+                <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Paper
+              </a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}" class="btn btn--info btn--small">
+                <i class="fa fa-slideshare" aria-hidden="true"></i> Download Slides
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
     {% endif %}
 
   </article>

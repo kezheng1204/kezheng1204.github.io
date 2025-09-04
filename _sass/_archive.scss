@@ -84,6 +84,65 @@
   }
 }
 
+/* Publication Details Styling */
+.publication-details {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: mix(#fff, $gray, 95%);
+  border-left: 4px solid $primary-color;
+  border-radius: 4px;
+  font-size: $type-size-6;
+}
+
+.citation-section {
+  margin-bottom: 1em;
+  
+  .citation-label {
+    color: $primary-color;
+    font-size: $type-size-6;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    
+    i {
+      margin-right: 0.5em;
+      font-size: 0.8em;
+    }
+  }
+  
+  .citation-text {
+    font-style: italic;
+    color: mix(#000, $gray, 80%);
+    line-height: 1.4;
+    margin: 0;
+    padding-left: 1.5em;
+    border-left: 2px solid mix(#fff, $gray, 85%);
+  }
+}
+
+.publication-links {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    
+    i {
+      margin-right: 0.4em;
+    }
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(#000, 0.2);
+    }
+  }
+}
+
 
 /*
    List view
