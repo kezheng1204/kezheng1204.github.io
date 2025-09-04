@@ -39,9 +39,19 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p class="publication-meta"> {{ post.type }}, <span class="venue-badge">{{ post.venue }}</span>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="publication-meta"> 
+            {{ post.type }}<span class="venue-separator">,</span>
+            {% assign venue_slug = post.venue | slugify %}
+            <span class="venue-badge venue-badge--{{ venue_slug }}" data-venue="{{ venue_slug }}">{{ post.venue }}</span><span class="venue-separator">,</span>
+            {{ post.date | default: "1900-01-01" | date: "%Y" }} 
+          </p>
         {% elsif post.collection == 'publications' %}
-          <p class="publication-meta">Published in <span class="venue-badge">{{ post.venue }}</span>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="publication-meta">
+            Published in 
+            {% assign venue_slug = post.venue | slugify %}
+            <span class="venue-badge venue-badge--{{ venue_slug }}" data-venue="{{ venue_slug }}">{{ post.venue }}</span><span class="venue-separator">,</span>
+            {{ post.date | default: "1900-01-01" | date: "%Y" }} 
+          </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

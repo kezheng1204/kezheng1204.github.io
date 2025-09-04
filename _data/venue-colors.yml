@@ -1,0 +1,110 @@
+# Venue color configuration for publication badges
+# You can customize colors for different conferences and journals here
+# Colors should be in hex format
+
+conferences:
+  # Top ML conferences
+  neurips:
+    primary: "#e74c3c"
+    secondary: "#c0392b"
+    name: "NeurIPS"
+  
+  aaai:
+    primary: "#3498db" 
+    secondary: "#2980b9"
+    name: "AAAI"
+  
+  icml:
+    primary: "#9b59b6"
+    secondary: "#8e44ad" 
+    name: "ICML"
+  
+  iclr:
+    primary: "#e67e22"
+    secondary: "#d35400"
+    name: "ICLR"
+  
+  # Computer Vision conferences
+  cvpr:
+    primary: "#27ae60"
+    secondary: "#229954"
+    name: "CVPR"
+  
+  iccv:
+    primary: "#f39c12"
+    secondary: "#e67e22"
+    name: "ICCV"
+  
+  eccv:
+    primary: "#8e44ad"
+    secondary: "#732d91"
+    name: "ECCV"
+  
+  # AI conferences
+  ijcai:
+    primary: "#16a085"
+    secondary: "#138d75"
+    name: "IJCAI"
+  
+  # NLP conferences
+  acl:
+    primary: "#2c3e50"
+    secondary: "#34495e"
+    name: "ACL"
+  
+  emnlp:
+    primary: "#e91e63"
+    secondary: "#ad1457"
+    name: "EMNLP"
+
+journals:
+  # Top journals
+  nature:
+    primary: "#4caf50"
+    secondary: "#388e3c"
+    name: "Nature"
+  
+  science:
+    primary: "#ff5722"
+    secondary: "#e64a19"
+    name: "Science"
+  
+  pami:
+    primary: "#673ab7"
+    secondary: "#512da8"
+    name: "TPAMI"
+  
+  ijcv:
+    primary: "#009688"
+    secondary: "#00796b"
+    name: "IJCV"
+
+organizations:
+  # Organization-based colors
+  acm:
+    primary: "#607d8b"
+    secondary: "#546e7a"
+    name: "ACM"
+  
+  ieee:
+    primary: "#795548"
+    secondary: "#6d4c41"
+    name: "IEEE"
+
+special:
+  # Special categories
+  workshop:
+    primary: "#9e9e9e"
+    secondary: "#757575"
+    name: "Workshop"
+  
+  arxiv:
+    primary: "#ff9800"
+    secondary: "#f57c00"
+    name: "arXiv"
+
+# Default colors for unrecognized venues
+default:
+  primary: "#7a8288"
+  secondary: "#5a6268"
+  name: "Conference"
