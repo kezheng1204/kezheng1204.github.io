@@ -9,7 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-Coming Soon.
+Education
+======
+* **M.Sc. in Artificial Intelligence**, Xiamen University, 2024 - Present
+* **B.Sc. in Computer Science and Technology**, Xiamen University, 2020 - 2024
+
+Research Experience
+======
+* **2024 - Present: Graduate Research Assistant**
+  * ASC Laboratory, Xiamen University
+  * Research focus: 3D Computer Vision, Point Cloud Registration
+  * Supervisor: Prof. Cheng Wang
+
+* **2023 - 2024: Undergraduate Research Assistant**
+  * ASC Laboratory, Xiamen University
+  * Research projects on cross-source and unsupervised point cloud registration
+  * Contributed to top-tier conference publications (AAAI, NeurIPS)
+
+Skills
+======
+* **Programming Languages**: Python, C++
+* **Deep Learning Frameworks**: PyTorch, Triton
+* **3D Processing Libraries**: Open3D, PCL (Point Cloud Library)
+* **Research Areas**:
+  * Point Cloud Registration
+  * 3D Computer Vision
+  * Unsupervised Learning
+  * Cross-modal Learning
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Datasets
+======
+* **KITTI CrossSource Dataset**: A large-scale cross-source point cloud dataset for benchmarking registration methods
+  * Released as part of SPEAL work (AAAI 2024)
+  * Available at: [https://github.com/kezheng1204/KITTI-CrossSource/](https://github.com/kezheng1204/KITTI-CrossSource/)
+
+Honors and Awards
+======
+
+Currently no honors or awards to display.
 
 <!-- Education
 ======

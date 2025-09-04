@@ -9,10 +9,9 @@ redirect_from:
 
 ## About Me
 
-I am currently a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate studies in Computer Science and Technology in 2024. 
-I am currently affiliated with the **[ASC laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** of Xiamen University, where I engage in cutting-edge research and participate in various projects that enhance my skills in artificial intelligence, machine learning and computer vision. 
+I am a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate degree in Computer Science and Technology in 2024. I am affiliated with the **[ASC Laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** at Xiamen University, where I conduct cutting-edge research in artificial intelligence, machine learning, and computer vision.
 
-Currently, my research interests lie in the field of 3D computer vision. Particularly, I am working on **point cloud registration**, which is a fundamental task in 3D computer vision. Starting from 2023, I have contributed to the field through research that constitutes important research projects of the laboratory that I am affiliated with. My researches have been published in top-tier AI conferences, such as AAAI and NeurIPS.
+My research focuses on 3D computer vision, with particular emphasis on **point cloud registration**—a fundamental task in 3D computer vision. Since 2023, I have contributed to the field through research projects that advance the state-of-the-art in this domain. My work has been published in top-tier AI conferences, including AAAI and NeurIPS.
 
 ## Education
 
@@ -28,23 +27,23 @@ For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 
 ## Research Interests
 
-My research interests include:
-- Point Cloud Registration
+My research focuses on the following areas:
+- **Point Cloud Registration**: Developing robust algorithms for aligning 3D point clouds
 
 ### Point Cloud Registration
 
-Point cloud registration is a fundamental task in 3D computer vision, which aims to align two or more point clouds into a common coordinate system. It has been widely used in various applications, such as 3D reconstruction, object recognition, and robot navigation. The goal of point cloud registration is to estimate the transformation \\(\mathbf{T}= {\mathbf{R}, \mathbf{t}}\\) that aligns the source point cloud \\(\mathbf{P}_s\\) to the target point cloud \\(\mathbf{P}_t\\):
+Point cloud registration is a fundamental task in 3D computer vision that aims to align two or more point clouds into a common coordinate system. This technology has widespread applications in 3D reconstruction, object recognition, and robot navigation. The objective is to estimate the transformation \\(\mathbf{T}= \{\mathbf{R}, \mathbf{t}\}\\) that optimally aligns the source point cloud \\(\mathbf{P}_s\\) to the target point cloud \\(\mathbf{P}_t\\):
 
 $$
 \mathbf{T} = \arg\min_{\mathbf{T}} \sum_{i=1}^{N} \left\| \mathbf{R}\mathbf{p}_{s_i} + \mathbf{t} - \mathbf{p}_{t_i} \right\|^2
 $$
 
-where \\(\mathbf{R}\\) and \\(\mathbf{t}\\) are the rotation matrix and translation vector, respectively.
+where \\(\mathbf{R}\\) and \\(\mathbf{t}\\) represent the rotation matrix and translation vector, respectively.
 
-Particularly, I have been working on the following topics:
+My research addresses the following challenging scenarios:
 
-- Cross-source Point Cloud Registration ([AAAI 2024](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal)): Two point clouds are captured from different sources, e.g., LiDAR and RGB-D cameras.
-- Unsupervised Point Cloud Registration ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): No ground-truth poses is provided during training.
+- **Cross-source Point Cloud Registration** ([AAAI 2024](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal)): Aligning point clouds captured from heterogeneous sources, such as LiDAR and RGB-D cameras.
+- **Unsupervised Point Cloud Registration** ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): Developing registration methods without relying on ground-truth pose supervision during training.
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
