@@ -19,13 +19,11 @@ Research Experience
 * **2024 - Present: Graduate Student**
   * ASC Laboratory, Xiamen University
   * Research focus: 3D Computer Vision, Point Cloud Registration
-  * Supervisor: [Prof. Chenglu Wen](https://asc.xmu.edu.cn/t/wenchengluChengluWen)
 
 * **2023 - 2024: Undergraduate Student**
   * ASC Laboratory, Xiamen University
   * Research projects on cross-source and unsupervised point cloud registration
   * Contributed to top-tier conference publications (AAAI, NeurIPS)
-  * Supervisor: [Prof. Chenglu Wen](https://asc.xmu.edu.cn/t/wenchengluChengluWen)
 
 Skills
 ======

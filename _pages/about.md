@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate degree in Computer Science and Technology in 2024. I am affiliated with the **[ASC Laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** (Supervisor: [Prof. Chenglu Wen](https://asc.xmu.edu.cn/t/wenchengluChengluWen)) at Xiamen University, where I conduct cutting-edge research in artificial intelligence, machine learning, and computer vision.
+I am a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate degree in Computer Science and Technology in 2024. I am affiliated with the **[ASC Laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** at Xiamen University, where I conduct cutting-edge research in artificial intelligence, machine learning, and computer vision.
 
 My research focuses on 3D computer vision, with particular emphasis on **point cloud registration**—a fundamental task in 3D computer vision. Since 2023, I have contributed to the field through research projects that advance the state-of-the-art in this domain. My work has been published in top-tier AI conferences, including AAAI and NeurIPS.
 
