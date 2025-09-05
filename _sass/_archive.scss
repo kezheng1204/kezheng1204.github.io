@@ -472,3 +472,124 @@
     }
   }
 }
+
+/*
+   Teaching-specific styles
+   ========================================================================== */
+
+.teaching-meta {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: rgba($primary-color, 0.05);
+  border-left: 4px solid $primary-color;
+  border-radius: 0 8px 8px 0;
+}
+
+.teaching-details {
+  margin-bottom: 0.75em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  .teaching-separator {
+    color: $gray;
+    margin: 0 0.5em;
+  }
+  
+  .teaching-year {
+    color: $dark-gray;
+    font-weight: 500;
+    font-size: 0.9em;
+  }
+}
+
+.teaching-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, $primary-color, mix($primary-color, #000, 85%));
+  color: #fff;
+  padding: 0.4em 0.9em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-style: normal;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  // Course type specific colors
+  &.teaching-badge--undergraduate-course {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+  
+  &.teaching-badge--graduate-course {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  }
+  
+  &.teaching-badge--lab-course {
+    background: linear-gradient(135deg, #27ae60, #229954);
+  }
+  
+  &.teaching-badge--seminar {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+  }
+  
+  &.teaching-badge--workshop {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+  }
+}
+
+.teaching-venue {
+  margin-bottom: 0.5em;
+  font-size: 0.95em;
+  color: $dark-gray;
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
+  }
+  
+  strong {
+    color: $text-color;
+  }
+}
+
+.teaching-department {
+  font-size: 0.9em;
+  color: $gray;
+  font-style: italic;
+  margin-left: 22px;
+}
+
+.teaching-location {
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+  color: $gray;
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
+  }
+}
+
+.teaching-students {
+  margin-bottom: 0;
+  font-size: 0.85em;
+  color: $dark-gray;
+  font-weight: 500;
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
+  }
+}
