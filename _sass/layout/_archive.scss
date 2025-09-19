@@ -25,14 +25,23 @@
       }
     }
   }
+  
+  /* Override for publication detail buttons */
+  .publication-details a {
+    text-decoration: none !important;
+    
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
 }
 
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: var(--global-text-color-light);
-  border-bottom: 1px solid var(--global-border-color);
+  color: mix(#fff, $text, 25%);
+  border-bottom: 1px solid $primary-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -41,7 +50,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
 
   a + a {
     opacity: 0.5;
@@ -84,6 +93,227 @@
   }
 }
 
+/* Publication Details Styling */
+.publication-details {
+  margin-top: 1em;
+  padding: 1.2em;
+  background-color: #f9f9f9; /* Light grey background */
+  border-left: 4px solid $primary-color;
+  border-radius: 6px;
+  font-size: $type-size-6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+}
+
+.publication-meta {
+  font-size: $type-size-6;
+  color: mix(#000, $text, 70%);
+  margin-bottom: 0.5em;
+  line-height: 1.8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.venue-separator {
+  color: mix(#000, $text, 60%);
+  margin: 0 0.3em 0 0.1em;
+}
+
+.venue-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, $primary-color, mix($primary-color, #000, 85%));
+  color: #fff;
+  padding: 0.4em 0.9em;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-style: normal;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  // Specific venue colors using CSS classes
+  &.venue-badge--neurips-2024-main-conference,
+  &.venue-badge--neurips {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+  }
+  
+  &.venue-badge--aaai-24-main-track,
+  &.venue-badge--aaai {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+  
+  &.venue-badge--icml {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  }
+  
+  &.venue-badge--iclr {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+  }
+  
+  &.venue-badge--cvpr {
+    background: linear-gradient(135deg, #27ae60, #229954);
+  }
+  
+  &.venue-badge--iccv {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+  }
+  
+  &.venue-badge--eccv {
+    background: linear-gradient(135deg, #8e44ad, #732d91);
+  }
+  
+  &.venue-badge--ijcai {
+    background: linear-gradient(135deg, #16a085, #138d75);
+  }
+  
+  &.venue-badge--acl {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+  }
+  
+  &.venue-badge--emnlp {
+    background: linear-gradient(135deg, #e91e63, #ad1457);
+  }
+  
+  // Generic patterns for partial matches
+  &[class*="neurips"] {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+  }
+  
+  &[class*="aaai"] {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+  
+  &[class*="icml"] {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  }
+  
+  &[class*="iclr"] {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+  }
+  
+  &[class*="cvpr"] {
+    background: linear-gradient(135deg, #27ae60, #229954);
+  }
+  
+  &[class*="iccv"] {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+  }
+  
+  &[class*="eccv"] {
+    background: linear-gradient(135deg, #8e44ad, #732d91);
+  }
+  
+  &[class*="ijcai"] {
+    background: linear-gradient(135deg, #16a085, #138d75);
+  }
+  
+  &[class*="nature"] {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+  }
+  
+  &[class*="science"] {
+    background: linear-gradient(135deg, #ff5722, #e64a19);
+  }
+  
+  &[class*="arxiv"] {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+  }
+  
+  &[class*="workshop"] {
+    background: linear-gradient(135deg, #9e9e9e, #757575);
+  }
+}
+
+.citation-section {
+  margin-bottom: 1.2em;
+  
+  .citation-label {
+    color: $primary-color;
+    font-size: $type-size-6;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+    display: flex;
+    align-items: center;
+    
+    i {
+      margin-right: 0.5em;
+      font-size: 0.9em;
+    }
+  }
+  
+  .citation-text {
+    font-style: italic;
+    color: mix(#000, $text, 75%);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0.8em 1.2em;
+    background-color: #f9f9f9; /* Light grey background */
+    border-left: 3px solid mix(#fff, $primary-color, 70%);
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+  }
+}
+
+.publication-links {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: $type-size-6 !important; // Make text slightly larger
+    
+    i {
+      margin-right: 0.5em;
+      font-size: 1.1em;
+    }
+    
+    &:hover {
+      text-decoration: none !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba($primary-color, 0.3);
+    }
+  }
+  
+  .btn--primary {
+    background: linear-gradient(135deg, darken($primary-color, 15%), darken($primary-color, 25%));
+    
+    &:hover {
+      background: linear-gradient(135deg, darken($primary-color, 20%), darken($primary-color, 30%));
+    }
+  }
+  
+  .btn--info {
+    background: #3498db; /* A distinct dark blue */
+    
+    &:hover {
+      background: darken(#3498db, 10%);
+      filter: none;
+    }
+  }
+}
+
 
 /*
    List view
@@ -91,15 +321,15 @@
 
 .list__item {
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: auto;
   }
 
   @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
+    padding-right: auto;
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
+    padding-right: auto;
   }
 
   .page__meta {
@@ -159,7 +389,7 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid var(--global-border-color);
+  border-bottom: 1px solid $primary-color;
 }
 
 .feature__item {
@@ -241,5 +471,126 @@
         width: span(7 of 12);
       }
     }
+  }
+}
+
+/*
+   Teaching-specific styles
+   ========================================================================== */
+
+.teaching-meta {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: rgba($primary-color, 0.05);
+  border-left: 4px solid $primary-color;
+  border-radius: 0 8px 8px 0;
+}
+
+.teaching-details {
+  margin-bottom: 0.75em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  .teaching-separator {
+    color: $text;
+    margin: 0 0.5em;
+  }
+  
+  .teaching-year {
+    color: mix(#000, $text, 40%);
+    font-weight: 500;
+    font-size: 0.9em;
+  }
+}
+
+.teaching-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, $primary-color, mix($primary-color, #000, 85%));
+  color: #fff;
+  padding: 0.4em 0.9em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+ font-style: normal;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  // Course type specific colors
+  &.teaching-badge--undergraduate-course {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+  
+  &.teaching-badge--graduate-course {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  }
+  
+  &.teaching-badge--lab-course {
+    background: linear-gradient(135deg, #27ae60, #229954);
+  }
+  
+  &.teaching-badge--seminar {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+  }
+  
+  &.teaching-badge--workshop {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+  }
+}
+
+.teaching-venue {
+  margin-bottom: 0.5em;
+  font-size: 0.95em;
+  color: mix(#000, $text, 40%);
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
+  }
+  
+  strong {
+    color: mix(#000, $text, 40%);
+  }
+}
+
+.teaching-department {
+  font-size: 0.9em;
+  color: $text;
+  font-style: italic;
+  margin-left: 22px;
+}
+
+.teaching-location {
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+  color: $text;
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
+  }
+}
+
+.teaching-students {
+  margin-bottom: 0;
+  font-size: 0.85em;
+  color: mix(#000, $text, 40%);
+  font-weight: 500;
+  
+  i {
+    color: $primary-color;
+    margin-right: 0.5em;
+    width: 16px;
   }
 }
