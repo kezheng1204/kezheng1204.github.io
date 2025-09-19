@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Kezheng Xiong"
 title_separator          : "-"
 name                     : &name "Kezheng Xiong"
 description              : &description "3D computer vision researcher, a master's student in Xiamen University"
