@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kezheng Xiong, M.Sc. Student at Xiamen University"
+title: "Kezheng Xiong, Ph.D. Student at Xiamen University"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,20 +9,22 @@ redirect_from:
 
 ## About Me
 
-I am a master's student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate degree in Computer Science and Technology in 2024. I am affiliated with the **[ASC Laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** at Xiamen University, where I conduct cutting-edge research in artificial intelligence, machine learning, and computer vision.
+I am a Ph.D. student in the Department of Artificial Intelligence at Xiamen University, where I also completed my undergraduate degree in Computer Science and Technology in 2024. I am affiliated with the **[ASC Laboratory](https://asc.xmu.edu.cn/t/xiongkezheng)** at Xiamen University, where I conduct cutting-edge research in artificial intelligence, machine learning, and computer vision.
 
-My research focuses on 3D computer vision, with particular emphasis on **point cloud registration**—a fundamental task in 3D computer vision. Since 2023, I have contributed to the field through research projects that advance the state-of-the-art in this domain. My work has been published in top-tier AI conferences, including AAAI and NeurIPS.
+My research focuses on 3D computer vision, with particular emphasis on **point cloud registration**—a fundamental task in 3D computer vision. Since 2023, I have contributed to the field through research projects that advance the state-of-the-art in this domain. My work has been published in top-tier AI conferences, including AAAI, NeurIPS, CVPR, and ECCV.
 
 ## Education
 
-- **M.Sc. in Artificial Intelligence**, Xiamen University, 2024 - Present
+- **Ph.D. in Artificial Intelligence**, Xiamen University, 2024 - Present
 - **B.Sc. in Computer Science and Technology**, Xiamen University, 2020 - 2024
 
 For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 
 ## News
 
-- **[02/2026]**: One co-authored paper has been accepted to CVPR 2026.
+- **[06/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-06-18-eccv26-caesar) on unsupervised point cloud registration has been accepted to ECCV 2026.
+
+- **[02/2026]**: One co-authored [paper](https://kezheng1204.github.io/publication/2026-02-23-cvpr26-taco) has been accepted to CVPR 2026.
 
 - **[09/2024]**: One [paper](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer) on unsupervised point cloud registration has been accepted to NeurIPS 2024.
 - **[12/2023]**: One [paper](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal) on cross-source point cloud registration has been accepted to AAAI 2024.
@@ -30,7 +32,8 @@ For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 ## Research Interests
 
 My research focuses on the following areas:
-- **Point Cloud Registration**: Developing robust algorithms for aligning 3D point clouds
+- **Point Cloud Registration**: Developing robust algorithms for aligning 3D point clouds, including cross-source and unsupervised settings.
+- **Joint LiDAR Localization and 3D Object Detection**: Unifying localization and perception tasks within a single contrastive learning framework.
 
 ### Point Cloud Registration
 
@@ -45,7 +48,16 @@ where \\(\mathbf{R}\\) and \\(\mathbf{t}\\) represent the rotation matrix and tr
 My research addresses the following challenging scenarios:
 
 - **Cross-source Point Cloud Registration** ([AAAI 2024](https://kezheng1204.github.io/publication/2024-03-24-aaai24-speal)): Aligning point clouds captured from heterogeneous sources, such as LiDAR and RGB-D cameras.
-- **Unsupervised Point Cloud Registration** ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): Developing registration methods without relying on ground-truth pose supervision during training.
+- **Unsupervised Point Cloud Registration** 
+1. ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): Developing registration methods without relying on ground-truth pose supervision during training.
+2. ([ECCV 2026](https://kezheng1204.github.io/publication/2026-06-18-eccv26-caesar)): Identifying a key failure mode of existing unsupervised methods and proposing a novel teacher-student framework with train-only semantic guidance to address it.
+
+### Other Research Participated
+
+Beyond point cloud registration, I have also contributed to related areas in 3D computer vision:
+
+- **Joint LiDAR Localization and 3D Object Detection** ([CVPR 2026](https://kezheng1204.github.io/publication/2026-02-23-cvpr26-taco)): Contributed to TACO, the first task-aware contrastive learning framework that unifies LiDAR-based localization and 3D object detection within a single network. TACO leverages contrastive learning to explicitly decouple static geographic features for localization and object-centric features for detection, enabling bidirectional mutual supervision. This work also introduced the **OxfoLD** dataset, the first multi-traversal LiDAR dataset with both localization ground truth and rich 3D object annotations across various times and weather conditions.
+
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

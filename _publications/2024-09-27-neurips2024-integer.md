@@ -6,7 +6,7 @@ permalink: /publication/2024-09-27-neurips2024-integer
 excerpt: 'In this paper, we propose a novel unsupervised registration method termed INTEGER to incorporate high-level contextual information for reliable pseudo-label mining.'
 date: 2024-09-27
 venue: 'NeurIPS 2024 Main Conference'
-paperurl: 'http://kezheng1204.github.io/files/neurips-24-integer.pdf'
+paperurl: 'http://kezheng1204.github.io/files/neurips-24-integer/neurips-24-integer.pdf'
 citation: 'Xiong, Kezheng, et al. "Mining and Transferring Feature-Geometry Coherence for Unsupervised Point Cloud Registration." The Thirty-eighth Annual Conference on Neural Information Processing Systems (2024).'
 ---
 

@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **M.Sc. in Artificial Intelligence**, Xiamen University, 2024 - Present
+* **Ph.D. in Artificial Intelligence**, Xiamen University, 2024 - Present
 * **B.Sc. in Computer Science and Technology**, Xiamen University, 2020 - 2024
 
 Research Experience
@@ -23,7 +23,7 @@ Research Experience
 * **2023 - 2024: Undergraduate Student**
   * ASC Laboratory, Xiamen University
   * Research projects on cross-source and unsupervised point cloud registration
-  * Contributed to top-tier conference publications (AAAI, NeurIPS)
+  * Contributed to top-tier conference publications (AAAI, NeurIPS, CVPR, ECCV)
 
 Skills
 ======
