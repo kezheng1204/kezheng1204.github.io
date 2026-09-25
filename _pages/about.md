@@ -22,7 +22,7 @@ For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 
 ## News
 
-- **[09/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-09-25-neurips2026-integer) on unsupervised point cloud registration has been accepted to NeurIPS 2026.
+- **[09/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-09-25-neurips2026-integer) on unsupervised point cloud registration has been accepted to NeurIPS 2026, and one [paper](https://kezheng1204.github.io/publication/2026-02-23-neurips2026ed-mot3dvg) on outdoor 3D visual grounding has been accepted to NeurIPS 2026 ED Track.
 
 - **[06/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-06-18-eccv26-caesar) on unsupervised point cloud registration has been accepted to ECCV 2026.
 
