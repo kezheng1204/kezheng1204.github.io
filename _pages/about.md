@@ -22,6 +22,8 @@ For more details, please refer to my [CV](https://kezheng1204.github.io/cv/).
 
 ## News
 
+- **[09/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-09-25-neurips2026-integer) on unsupervised point cloud registration has been accepted to NeurIPS 2026.
+
 - **[06/2026]**: One [paper](https://kezheng1204.github.io/publication/2026-06-18-eccv26-caesar) on unsupervised point cloud registration has been accepted to ECCV 2026.
 
 - **[02/2026]**: One co-authored [paper](https://kezheng1204.github.io/publication/2026-02-23-cvpr26-taco) has been accepted to CVPR 2026.
@@ -51,6 +53,7 @@ My research addresses the following challenging scenarios:
 - **Unsupervised Point Cloud Registration** 
 1. ([NeurIPS 2024](https://kezheng1204.github.io/publication/2024-09-27-neurips2024-integer)): Developing registration methods without relying on ground-truth pose supervision during training.
 2. ([ECCV 2026](https://kezheng1204.github.io/publication/2026-06-18-eccv26-caesar)): Identifying a key failure mode of existing unsupervised methods and proposing a novel teacher-student framework with train-only semantic guidance to address it.
+3. ([NeurIPS 2026](https://kezheng1204.github.io/publication/2026-09-25-neurips2026-integer)): Unleashing the potential of Visual Foundation Models (VFMs) for unsupervised LiDAR point cloud registration, enabling the training of various registration models and scaling well with stronger VFMs.
 
 ### Other Research Participated
 
